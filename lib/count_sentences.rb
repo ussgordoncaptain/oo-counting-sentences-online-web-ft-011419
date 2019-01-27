@@ -26,6 +26,6 @@ class String
         count += 1
       end
     end
-    return sentences_arr.size - count
+     sentences_arr.size - count
   end
 end
