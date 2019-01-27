@@ -16,9 +16,9 @@ class String
 
   def count_sentences
     temp_arr = self.split("!")
-    neo = self.join(".")
+    neo = temp_arr.join(".")
     temp_arr2 = neo.split("?")
-    last_sent = neo.join(".")
+    last_sent = temp_arr2.join(".")
     sentences_arr = last_sent.split(".")
     empty_str_count = 0 
     sentences_arr.each do |sent|
