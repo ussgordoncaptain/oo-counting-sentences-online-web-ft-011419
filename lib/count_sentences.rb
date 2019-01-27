@@ -26,6 +26,7 @@ class String
         empty_str_count += 1
       end
     end
-     sentences_arr.size - count
+    foo =  sentences_arr.length 
+    foo - empty_str_count
   end
 end
