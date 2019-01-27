@@ -17,6 +17,8 @@ class String
   def count_sentences
     temp_arr = self.split("!")
     neo = self.join(".")
-    temp_arr2 = self.split()
+    temp_arr2 = neo.split("?")
+    last_sent = neo.join(".")
+    sentences_arr =
   end
 end
