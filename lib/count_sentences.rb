@@ -23,7 +23,7 @@ class String
     empty_str_count = 0 
     sentences_arr.each do |sent|
       if sent.length == 0 
-        count += 1
+        empty_str_count += 1
       end
     end
      sentences_arr.size - count
