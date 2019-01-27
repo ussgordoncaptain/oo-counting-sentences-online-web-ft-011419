@@ -19,6 +19,6 @@ class String
     neo = self.join(".")
     temp_arr2 = neo.split("?")
     last_sent = neo.join(".")
-    sentences_arr =
+    sentences_arr = last_sent.split("")
   end
 end
